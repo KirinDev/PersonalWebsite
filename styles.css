@@ -4,18 +4,59 @@ body {
 
 .hh1 {
     text-align: left;
-    padding-left: 250px;
+    padding-left: 170px;
     color: white;
-    font-size: 115px;
-    font-family: 'Indie Flower', cursive;;
-    text-shadow: 4px 4px 5px red;
+    font-size: 120px;
+    font-family: 'Indie Flower', cursive;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
 }
 
 .hh2 {
     text-align: left;
-    padding-left: 160px;
+    padding-left: 120px;
     color: white;
-    font-size: 70px;
+    font-size: 85px;
     font-family: 'Indie Flower', cursive;
-    text-shadow: 4px 4px 5px red;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.hbutton {
+    padding: 15px 25px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 20%;
+  }
+  
+  .hbutton:hover {background-color: darkcyan}
+  
+  .hbutton:active {
+    background-color: darkcyan;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
