@@ -3,17 +3,19 @@ body {
 }
 
 .hh1 {
-    text-align: left;
+    text-align: center;
+    padding-left: 100px;
     color: white;
     font-size: 50px;
     font-family: 'Indie Flower', cursive;;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 4px 4px 5px red;
 }
 
 .hh2 {
-    text-align: left;
+    text-align: center;
+    padding-left: 100px;
     color: white;
     font-size: 30px;
     font-family: 'Indie Flower', cursive;
-    text-shadow: 2px 2px 5px blueviolet;
+    text-shadow: 4px 4px 5px red;
 }
