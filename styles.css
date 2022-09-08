@@ -69,15 +69,14 @@
 
   ul {
     list-style-type: none;
+    border: 1px solid black;
     margin: 0;
     padding: 0;
-    
-    max-width: 50%;
+    width:6%;
     background-color: #060D1A;
     position: fixed;
     height: 100%;
     overflow: auto;
-    float: left;
   }
   
   li a {
@@ -91,11 +90,13 @@
   
   li a.active {
     background-color: black;
+    border-radius: 25px;
     color: white;
   }
   
   li a:hover:not(.active) {
     background-color: #555;
+    border-radius: 25px;
     color: white;
   }
 
@@ -120,11 +121,12 @@
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px 15px;
     transition: 0.3s;
-    margin-left: 10%;
-    max-height: 10%;
-    width: 15%;
+    width: 17%;
     float: left;
+    margin-left: 8%;
+    margin-top: 2%;
   }
   
   .card:hover {
@@ -139,14 +141,19 @@
 
   .about_border {
     background-color: rgb(232, 230, 227);
-    width: 75%;
-    height: 512px;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 2%;
     float: left;
+    border-radius: 15px;
   }
 
   .about_text {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Overpass', sans-serif;
-    padding: 12px 16px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
   }
