@@ -149,7 +149,7 @@
     margin-top: 2%;
     float: left;
     border-radius: 15px;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   .about_text {
@@ -191,6 +191,22 @@
     background-color: gray;
     border-radius: 15px;
   }
+
+  .skill_cont {
+    width: 35%;
+    background-color: gray;
+    margin-left: 40%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
+
+  .skill_contR {
+    width: 35%;
+    margin-left: 10%;
+    background-color: gray;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
   
   .skill_bar {
     border-radius: 15px;
@@ -226,3 +242,38 @@
   .right_skl {
     margin-top: 77px;
   }
+
+  .footer {
+    background-color: #1d2a35;
+    width: 100%;
+    float: left;
+  }
+
+  p.foot {
+    font-size: 20px;
+    color: #f1f1f1;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+  }
+
+  .isocials {
+    color: white;
+    margin-left: 42.5%;
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+.isocials a {
+    color: white;
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    font-size: 35px;
+}
+
+.isocials a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
