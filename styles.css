@@ -57,7 +57,7 @@
     margin:47%;
   }
   
-  .hbutton:hover {background-color: darkcyan}
+  .hbutton:hover {background-color: #45a049}
   
   .hbutton:active {
     background-color: darkcyan;
@@ -122,9 +122,9 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 15px 15px;
+    float: left;
     transition: 0.3s;
     width: 17%;
-    float: left;
     margin-left: 13%;
     margin-top: 2%;
   }
@@ -141,11 +141,11 @@
 
   .about_border {
     background-color: rgb(232, 230, 227);
-    width: 60%;
+    float: left;
+    width: 50%;
     height: 488px;
     margin-left: 50px;
     margin-top: 2%;
-    float: left;
     border-radius: 15px;
     opacity: 0.8;
   }
@@ -165,6 +165,8 @@
     opacity: 0.8;
     width: 50%;
     margin-top: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     float: left;
   }
 
@@ -172,20 +174,19 @@
     color: #f1f1f1;
     font-size: 25px;
     font-family: 'Overpass', sans-serif;
-    margin-top: 20px;
     margin-left: 340px;
   }
 
   .skill_container {
     width: 35%;
     background-color: gray;
-    margin-left: 40%;
+    margin-left: 47%;
     border-radius: 15px;
   }
 
   .skill_containerR {
     width: 35%;
-    margin-left: 10%;
+    margin-left: 18%;
     background-color: gray;
     border-radius: 15px;
   }
@@ -193,14 +194,14 @@
   .skill_cont {
     width: 35%;
     background-color: gray;
-    margin-left: 40%;
+    margin-left: 47%;
     border-radius: 15px;
     margin-bottom: 50px;
   }
 
   .skill_contR {
     width: 35%;
-    margin-left: 10%;
+    margin-left: 18%;
     background-color: gray;
     border-radius: 15px;
     margin-bottom: 50px;
@@ -217,14 +218,14 @@
   p.skill {
     font-size: 20px;
     font-family: 'ABeeZee', sans-serif;
-    margin-left: 40%;
+    margin-left: 47%;
     color: #f1f1f1;
   }
 
   p.skillR {
     font-size: 20px;
     font-family: 'ABeeZee', sans-serif;
-    margin-left: 10%;
+    margin-left: 18%;
     color: #f1f1f1;
   }
   
@@ -275,3 +276,54 @@
     color: black;
     border-radius: 20px;
 }
+
+input[type=text], select, textarea {
+  float: none;
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30%;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  font-family: 'Silkscreen', cursive;
+  font-size: 20px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 47%;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form_container {
+  background-color: #1d2a35;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  float: left;
+}
+
+p.form {
+  color:#ccc;
+  font-size: 20px;
+  margin-left: 30%;
+}
+
+p.formt {
+  color:#ccc;
+  font-size: 30px;
+  margin-left: 20%;
+}
+
