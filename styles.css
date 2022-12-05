@@ -1,5 +1,7 @@
 .hbody {
-    background-image: url("img_storage/home_wallpaper.gif");
+    background-image: url("https://giffiles.alphacoders.com/146/14625.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .abody {
@@ -253,7 +255,8 @@
     color: #f1f1f1;
     font-family: 'Overpass', sans-serif;
     text-align: center;
-    padding: 15px 15px;
+    padding-top: 55px;
+    padding-bottom: 15px;
   }
 
   .isocials {
@@ -261,6 +264,7 @@
     margin-left: 42.5%;
     font-size: 35px;
     padding-top: 25px;
+    margin-bottom: 2%;
 }
 
 .isocials a {
