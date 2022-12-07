@@ -11,7 +11,7 @@
 
 .hh1 {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 110px;
     font-family: 'Indie Flower', cursive;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -19,7 +19,7 @@
 
 .hh2 {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 85px;
     font-family: 'Indie Flower', cursive;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -27,19 +27,19 @@
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #403332, 0 0 40px #403332, 0 0 50px #403332, 0 0 60px #403332, 0 0 70px #403332;
     }
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #fff, 0 0 30px #807b49, 0 0 40px #807b49, 0 0 50px #807b49, 0 0 60px #807b49, 0 0 70px #807b49, 0 0 80px #807b49;
     }
 }
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #403332, 0 0 40px #403332, 0 0 50px #403332, 0 0 60px #403332, 0 0 70px #403332;
     }
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #fff, 0 0 30px #807b49, 0 0 40px #807b49, 0 0 50px #807b49, 0 0 60px #807b49, 0 0 70px #807b49, 0 0 80px #807b49;
     }
 }
 
@@ -142,18 +142,20 @@
   }
 
   .about_border {
-    background-color: rgb(232, 230, 227);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvBsB0BON0WZ8y2mHb0S1VtXzPGWlO7Wy2Pw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
     width: 50%;
     height: 488px;
     margin-left: 50px;
     margin-top: 2%;
     border-radius: 15px;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   .about_text {
-    color: black;
+    color: #f1f1f1;
     font-size: 20px;
     font-family: 'Overpass', sans-serif;
     float: left;
@@ -166,8 +168,8 @@
     background-color: #1d2a35;
     opacity: 0.8;
     width: 50%;
-    margin-top: 2%;
     padding-top: 50px;
+    margin-top: 2%;
     padding-bottom: 50px;
     float: left;
   }
@@ -177,6 +179,8 @@
     font-size: 25px;
     font-family: 'Overpass', sans-serif;
     margin-left: 340px;
+    margin-top: 22px;
+    padding-bottom: 3px;
   }
 
   .skill_container {
@@ -241,7 +245,7 @@
   .javascript {width: 60%; background-color: #f1f1f1;}
 
   .right_skl {
-    margin-top: 77px;
+    margin-top: 82px;
   }
 
   .footer {
@@ -273,6 +277,7 @@
     display: block;
     padding: 10px 10px;
     font-size: 35px;
+    margin-bottom: 5%;
 }
 
 .isocials a:hover {
@@ -312,7 +317,11 @@ input[type=submit]:hover {
 }
 
 .form_container {
-  background-color: #1d2a35;
+  /*background-color: #1d2a35;
+  */
+  background-image: url("https://wallpapers-hub.art/wallpaper-images/99842.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
